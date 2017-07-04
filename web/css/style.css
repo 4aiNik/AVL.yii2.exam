@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main, nav {
+  flex: 1 0 auto;
+}
+
+footer {
+	background: #cc5500;
+  flex: 0 0 auto;
+	padding: 10px;
+	color: white;
+}
+
+header {
+	height: 50px;
+}
+
+.navbar {
+	background: #cc5500;
+	color: white;
+}
+
+.navbar .active a {
+	background: #ec7c26 !important;
+	color: white;
+}
+
+.navbar a {
+	color: white !important;
+}
+.pagination li a{
+	background: #ec7c26;
+	color: white;
+}
+.pagination li.active a{
+	background: #cc5500;
+}
+.btn-primary{
+	background-color: #cc5500;
+    border-color: #ec7c26;
+}
+.btn-primary:hover{
+	background-color: #ec7c26;
+	border-color: #ec7c26;
+}
